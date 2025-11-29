@@ -3,7 +3,7 @@ cask "jp" do
   name "jp"
   desc "JSON stream processor and transformation tool"
   homepage "https://github.com/arnodel/jsonstream"
-  version "0.1.7"
+  version "0.1.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "jp" do
   on_macos do
     on_intel do
       url "https://github.com/arnodel/jsonstream/releases/download/v#{version}/jsonstream_#{version}_macOS_amd64.tar.gz"
-      sha256 "9411b7fb375fee26ed853b452ff88c19a3aa3e77212a6ca8e2875941a439e74c"
+      sha256 "4af90ae5e1063fb58848b6bda3223e6a1d5d18a94c66245281adb7db681fce44"
     end
     on_arm do
       url "https://github.com/arnodel/jsonstream/releases/download/v#{version}/jsonstream_#{version}_macOS_arm64.tar.gz"
-      sha256 "89c142540b89b5a34b913a9c7bff1347dc821d3ded167935f1f9b9eda8accd74"
+      sha256 "cf0446ea0f137242ebfce1bcc4844f6c5013f111cc69d47b5159e7d867710ef6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arnodel/jsonstream/releases/download/v#{version}/jsonstream_#{version}_linux_amd64.tar.gz"
-      sha256 "c15ef8d2f6519526c12c4f7be55440b4aa80edc0121f2e287d15b648e5a39600"
+      sha256 "80a790f07c16749e9f1b401c9f04c3fd5ec1969b625b883ea3f4e0d79d4b8aa3"
     end
     on_arm do
       url "https://github.com/arnodel/jsonstream/releases/download/v#{version}/jsonstream_#{version}_linux_arm64.tar.gz"
-      sha256 "f6ea2bfd6666e5a97e81b0fca8023e4088127de7e9caca88544ea2776fde26dc"
+      sha256 "16d64fbe9aedae21ba8ba69ee30b82c004b79dedf6feddaa1fec51e4a4c33a6d"
     end
   end
 
